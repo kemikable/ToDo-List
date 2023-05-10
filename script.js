@@ -591,7 +591,7 @@ addBtn.addEventListener('click', function () {
         });
     });
 
-    newDoInput.forEach((el, i) => {
+    newDoInput.forEach((el) => {
         el.addEventListener('input', () => {
             saveInputsToLocalStorage();
         });
@@ -629,7 +629,6 @@ function getInputsFromLocalStorage() {
             inputList.append(newInput);
 
             const newDeleteBtn = newInput.querySelector('.new-delete');
-            const newUserInput = newInput.querySelector('.new-input');
             const newDoInput = newInput.querySelector('.new-do');
 
             newDeleteBtn.addEventListener('mouseover', function () {
