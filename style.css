@@ -44,6 +44,11 @@
      margin-left: 7vw;
      margin-top: 19px;
      margin-bottom: 19px;
+
+ }
+
+ .add-btn:hover {
+     cursor: pointer;
  }
 
  .input,
@@ -71,6 +76,13 @@
  .new-delete {
      width: 1.5vw;
      height: 1.5vw;
+     margin-right: 7px;
+     margin-left: 2px;
+ }
+
+ .delete-icon:hover,
+ .new-delete:hover {
+     cursor: pointer;
  }
 
  main {
